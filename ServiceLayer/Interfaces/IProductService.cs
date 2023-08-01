@@ -1,4 +1,5 @@
 ﻿using DomainLayer.Models;
+using ServiceLayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace ServiceLayer.Interfaces
 {
     public interface IProductService
     {
-        IEnumerable<Product> GetProduct();
+        IEnumerable<ProductDTO> GetProduct();
     }
 }
